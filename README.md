@@ -35,7 +35,7 @@ SAT-GPT doesn't try to replace ISRO's data infrastructure. It adds a natural-lan
 ```mermaid
 flowchart TD
     A[User] --> B["Upload image(s) + natural-language query"]
-    A -.->|"No image yet?"| G["Guided Access: pick a location,\nlink out to ISRO Bhuvan to download imagery"]
+    A -.->|"No image yet?"| G["Guided Access: pick a location,\nlink out to Copernicus website to download imagery"]
     G -.-> B
 
     B --> C["Input Validation & Preprocessing\nformat, modality, co-registration, metadata"]
